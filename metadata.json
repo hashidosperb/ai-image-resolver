@@ -1,0 +1,6 @@
+{
+  "name": "GhostPixel - AI Detection Evasion",
+  "description": "Client-side privacy tool to neutralize invisible AI watermarks (SynthID), strip C2PA metadata, and disrupt neural network classifiers on AI-generated images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
