@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: process.env.VITE_BASE || (process.env.GITHUB_ACTIONS || process.env.GITHUB_PAGES ? '/ai-image-resolver/' : './'),
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
